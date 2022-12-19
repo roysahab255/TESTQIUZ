@@ -1,0 +1,9 @@
+function submitForm(e) {
+e.preventDefault();
+	
+	let	name = document.forms["welcomes_forms"]["names"].value;
+
+ sessionStorage.setItem("names",name);
+ location.href = "qui.html";
+   //console.log(nam);
+ }
